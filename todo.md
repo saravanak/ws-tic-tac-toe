@@ -17,3 +17,20 @@ close player details on connection close
 Add commands for MOVE, GAME_WIN, announce winner if player takes too long to move. 
 Take back aka history not be implemented. 
 Validate message on socket to check if the request is tampered. (imeplement security or wss ?)
+
+
+## Steps to execute
+
+
+```bash 
+# cd to server 
+
+yarn 
+ PORT=3001 npm start # starts server on port 30
+# cd to client dir 
+
+yarn 
+npm run dev 
+```
+
+Open http://localhost:3000 . the player can only join at the moment
